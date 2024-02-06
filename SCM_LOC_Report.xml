@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:html="http://www.w3.org/TR/REC-html40">
+<Styles>
+<Style ss:ID="s21">
+<Font x:Family="Swiss" ss:Bold="1"/>
+</Style>
+<Style ss:ID="s22">
+<Font x:Family="Swiss" ss:Size="11" ss:Bold="1"/>
+</Style><Style ss:ID="firstNormalCell">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="lastNormalCell">
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="lastRowFirstCell">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="lastRowCell">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="lastRowLastCell">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="headerFirstCell">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="headerCell">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="headerLastCell">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+  </Style>
+</Styles>
+<Worksheet ss:Name="Detailed LOC Report">
+<Table>
+<Row class="text">
+<Cell ss:StyleID="s22" id="h1"> <Data ss:Type="String">Lines of code per project</Data></Cell>
+<Cell ss:StyleID="s22" id="h1"> <Data ss:Type="String">LOC</Data></Cell>
+</Row>
+<Row class="text">
+<Cell ss:StyleID="s21" id="h2"> <Data ss:Type="String">StarCarsManagement.vbp</Data></Cell>
+<Cell ss:StyleID="s21" id="h2"> <Data ss:Type="Number">7337</Data></Cell>
+</Row>
+<Row class="text">
+<Cell ss:StyleID="s21" id="h2"> <Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21" id="h2"> <Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21" id="h2"> <Data ss:Type="String">Code</Data></Cell>
+<Cell ss:StyleID="s21" id="h2"> <Data ss:Type="String">Comment</Data></Cell>
+<Cell ss:StyleID="s21" id="h2"> <Data ss:Type="String">Blank</Data></Cell>
+<Cell ss:StyleID="s21" id="h2"> <Data ss:Type="String">Design</Data></Cell>
+<Cell ss:StyleID="s21" id="h2"> <Data ss:Type="String">Supported</Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\frmMain.frm</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">87</Data></Cell>
+<Cell> <Data ss:Type="Number">0</Data></Cell>
+<Cell> <Data ss:Type="Number">16</Data></Cell>
+<Cell> <Data ss:Type="Number">120</Data></Cell>
+<Cell> <Data ss:Type="String">Yes</Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\frmCreateNewBrand.frm</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">131</Data></Cell>
+<Cell> <Data ss:Type="Number">0</Data></Cell>
+<Cell> <Data ss:Type="Number">17</Data></Cell>
+<Cell> <Data ss:Type="Number">413</Data></Cell>
+<Cell> <Data ss:Type="String">Yes</Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\frmCreateNewVehicle.frm</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">211</Data></Cell>
+<Cell> <Data ss:Type="Number">0</Data></Cell>
+<Cell> <Data ss:Type="Number">31</Data></Cell>
+<Cell> <Data ss:Type="Number">576</Data></Cell>
+<Cell> <Data ss:Type="String">Yes</Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\frmCreateNewStaff.frm</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">152</Data></Cell>
+<Cell> <Data ss:Type="Number">0</Data></Cell>
+<Cell> <Data ss:Type="Number">22</Data></Cell>
+<Cell> <Data ss:Type="Number">412</Data></Cell>
+<Cell> <Data ss:Type="String">Yes</Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\frmAbout.frm</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">97</Data></Cell>
+<Cell> <Data ss:Type="Number">16</Data></Cell>
+<Cell> <Data ss:Type="Number">22</Data></Cell>
+<Cell> <Data ss:Type="Number">104</Data></Cell>
+<Cell> <Data ss:Type="String">Yes</Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\frmCreateNewReceipt.frm</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">277</Data></Cell>
+<Cell> <Data ss:Type="Number">0</Data></Cell>
+<Cell> <Data ss:Type="Number">28</Data></Cell>
+<Cell> <Data ss:Type="Number">513</Data></Cell>
+<Cell> <Data ss:Type="String">Yes</Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\modMain.bas</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">29</Data></Cell>
+<Cell> <Data ss:Type="Number">0</Data></Cell>
+<Cell> <Data ss:Type="Number">7</Data></Cell>
+<Cell> <Data ss:Type="Number">0</Data></Cell>
+<Cell> <Data ss:Type="String">Yes</Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\frmLogin.frm</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">48</Data></Cell>
+<Cell> <Data ss:Type="Number">0</Data></Cell>
+<Cell> <Data ss:Type="Number">11</Data></Cell>
+<Cell> <Data ss:Type="Number">71</Data></Cell>
+<Cell> <Data ss:Type="String">Yes</Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\frmDeleteVehicle.frm</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">420</Data></Cell>
+<Cell> <Data ss:Type="Number">1</Data></Cell>
+<Cell> <Data ss:Type="Number">52</Data></Cell>
+<Cell> <Data ss:Type="Number">505</Data></Cell>
+<Cell> <Data ss:Type="String">Yes</Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\frmDeleteStaff.frm</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">228</Data></Cell>
+<Cell> <Data ss:Type="Number">0</Data></Cell>
+<Cell> <Data ss:Type="Number">27</Data></Cell>
+<Cell> <Data ss:Type="Number">315</Data></Cell>
+<Cell> <Data ss:Type="String">Yes</Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\CommonFunctions.bas</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">53</Data></Cell>
+<Cell> <Data ss:Type="Number">0</Data></Cell>
+<Cell> <Data ss:Type="Number">3</Data></Cell>
+<Cell> <Data ss:Type="Number">0</Data></Cell>
+<Cell> <Data ss:Type="String">Yes</Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\frmDeleteBrand.frm</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">244</Data></Cell>
+<Cell> <Data ss:Type="Number">0</Data></Cell>
+<Cell> <Data ss:Type="Number">27</Data></Cell>
+<Cell> <Data ss:Type="Number">359</Data></Cell>
+<Cell> <Data ss:Type="String">Yes</Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\frmViewBrands.frm</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">219</Data></Cell>
+<Cell> <Data ss:Type="Number">6</Data></Cell>
+<Cell> <Data ss:Type="Number">15</Data></Cell>
+<Cell> <Data ss:Type="Number">153</Data></Cell>
+<Cell> <Data ss:Type="String">Yes</Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\frmViewStaff.frm</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">205</Data></Cell>
+<Cell> <Data ss:Type="Number">3</Data></Cell>
+<Cell> <Data ss:Type="Number">16</Data></Cell>
+<Cell> <Data ss:Type="Number">153</Data></Cell>
+<Cell> <Data ss:Type="String">Yes</Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\frmViewReceipts.frm</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">220</Data></Cell>
+<Cell> <Data ss:Type="Number">0</Data></Cell>
+<Cell> <Data ss:Type="Number">17</Data></Cell>
+<Cell> <Data ss:Type="Number">153</Data></Cell>
+<Cell> <Data ss:Type="String">Yes</Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\frmViewVehicles.frm</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">279</Data></Cell>
+<Cell> <Data ss:Type="Number">3</Data></Cell>
+<Cell> <Data ss:Type="Number">23</Data></Cell>
+<Cell> <Data ss:Type="Number">176</Data></Cell>
+<Cell> <Data ss:Type="String">Yes</Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\frmDetailedInformation.frm</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">84</Data></Cell>
+<Cell> <Data ss:Type="Number">0</Data></Cell>
+<Cell> <Data ss:Type="Number">20</Data></Cell>
+<Cell> <Data ss:Type="Number">157</Data></Cell>
+<Cell> <Data ss:Type="String">Yes</Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\frmChangeStock.frm</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">48</Data></Cell>
+<Cell> <Data ss:Type="Number">0</Data></Cell>
+<Cell> <Data ss:Type="Number">7</Data></Cell>
+<Cell> <Data ss:Type="Number">125</Data></Cell>
+<Cell> <Data ss:Type="String">Yes</Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String"></Data></Cell>
+</Row>
+<Row class="text">
+<Cell ss:StyleID="s21" id="h2"> <Data ss:Type="String">Total lines of code:</Data></Cell>
+<Cell ss:StyleID="s21" id="h2"> <Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21" id="h2"> <Data ss:Type="Number">7337</Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String"></Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+</Workbook>
